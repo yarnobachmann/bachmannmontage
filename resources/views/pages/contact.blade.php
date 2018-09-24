@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" style="height: 100vh; width: 100vw;">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Bachmann Montage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -82,14 +82,14 @@
       <div class="gmap_canvas">
         <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=oranjedorpstraat%2058&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
         </iframe>
-        <a href="https://www.pureblack.de">webdesign preise</a></div>
+        </div>
         <style>.mapouter{text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
       </div>
     <div class="col-sm-1 sidenav">
 
     </div>
     <div class="col-sm-5" style="padding: 3%; padding-top: 1%; padding-bottom: 0.5%; left: 12%; top: 30%; height:33%; width:30%; position:absolute;">
-      <img src="/img/placeholder/auto.jpg" alt="bachmann montage bus" style="height: 100%; width:100%;">
+      <img src="/storage/{{$contact->image}}" alt="bachmann montage bus" style="height: 100%; width:100%;">
 
     </div>
     <div class="col-sm-1">
@@ -142,7 +142,7 @@
 
 <footer class="container-fluid">
   <img src="/img/logo/logo.svg" alt="logo" style="width: 4%; margin-left: 14%;">
-  <p style="margin-top: 0%; margin-left: 5%; display: inline-flex; margin-bottom: 0%;">+31 6 11223344</p> <p style="margin-top: 0%; margin-left: 5%; display: inline-flex; margin-bottom: 0%;">voorbeeld@gmail.com</p> <p style="margin-top: 0%; margin-bottom: 0%; margin-left: 23.5%; display: inline-flex;">Oranjedorpstraat 58, 7885AC Nieuw-Dordrecht</p>
+  <p style="margin-top: 0%; margin-left: 5%; display: inline-flex; margin-bottom: 0%;">{{$contact->phone_number}}</p> <p style="margin-top: 0%; margin-left: 5%; display: inline-flex; margin-bottom: 0%;">{{$contact->email}}</p> <p style="margin-top: 0%; margin-bottom: 0%; margin-left: 23.5%; display: inline-flex;">{{$contact->street_name}} {{$contact->house_number}}, {{$contact->postal_code}} {{$contact->city}}</p>
 </footer>
 
 </body>

@@ -11,18 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.welcome');
-});
+Route::get('/', 'Frontend\PagesController@home');
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
+Route::get('/contact', 'Frontend\PagesController@contact');
 
-Route::get('/diensten', function () {
-    return view('pages.diensten');
-});
+Route::get('/diensten', 'Frontend\PagesController@diensten');
 
-Route::get('/projecten', function () {
-    return view('pages.projecten');
+Route::get('/projecten', 'Frontend\PagesController@projecten');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
