@@ -1,0 +1,2 @@
+<img class="footer-img" src="/img/logo/logo.svg" alt="logo" style="width: 4%; margin-left: 14%;">
+<p style="margin-top: 0%; margin-left: 5%; display: inline-flex; margin-bottom: 0%;">{{$contact->phone_number}}</p> <p style="margin-top: 0%; margin-left: 5%; display: inline-flex; margin-bottom: 0%;">{{$contact->email}}</p> <p style="margin-top: 0%; margin-bottom: 0%; margin-left: 23.5%; display: inline-flex;">{{$contact->street_name}} {{$contact->house_number}}, {{$contact->postal_code}} {{$contact->city}}</p>

@@ -1,0 +1,1088 @@
+html{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #e5e5e5;g
+
+}
+
+.navbar a{
+  color: black;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+
+
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #e5e5e5;
+  color: black;
+  padding: 0px;
+  width: 100vw;
+  bottom: 0;
+  position: fixed;
+  font-size: 14px;
+}
+
+.project-wrapper {
+  padding-bottom: 2%;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+
+    padding: 15px;
+  }
+
+}
+
+.first-div{
+  height: 8vh;
+}
+
+.project-p{
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+.img-div{
+  width: 200px;
+  height: 200px;
+  background-position:center;
+  background-size: cover;
+  margin: 1%;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+.push-height{
+  height: 100px;
+}
+
+@media (min-width: 320px) and (min-height: 568px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .footer-img{
+    width: 13%!important;
+    margin-left: 4%!important;
+    padding-top: 12px!important;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    font-size: 10px
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 250px;
+    height: 140px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1024px) and (min-height: 768px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .footer-img{
+    width: 4%!important;
+    margin-left: 14%!important;
+    padding-top: 0px!important;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    font-size: 14px;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 250px;
+    height: 140px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1280px) and (min-height: 720px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 250px;
+    height: 160px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1280px) and (min-height: 800px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 250px;
+    height: 160px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+
+@media (min-width: 1280px) and (min-height: 1024px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 160px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1360px) and (min-height: 768px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 140px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1366px) and (min-height: 768px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1440px) and (min-height: 900px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1536px) and (min-height: 864px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1600px) and (min-height: 900px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1680px) and (min-height: 1050px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 1920px) and (min-height: 1080px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+
+@media (min-width: 1920px) and (min-height: 1200px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 200px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
+
+@media (min-width: 2560px) and (min-height: 1440px){
+  html{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #e5e5e5;g
+
+  }
+
+  .navbar a{
+    color: black;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+
+
+  }
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-wrapper {
+    padding-bottom: 2%;
+  }
+
+  .first-div{
+    height: 8vh;
+  }
+
+  .project-p{
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .img-div{
+    width: 200px;
+    height: 240px;
+    background-position:center;
+    background-size: cover;
+    margin: 1%;
+  }
+
+  .img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-height{
+    height: 100px;
+  }
+
+}
