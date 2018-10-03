@@ -1,4 +1,5 @@
 <form class="form-horizontal" action="" method="post">
+  {{ csrf_field() }}
     <fieldset>
       <legend class="text-center">Stuur hier een mailtje! <br> <small>Voor meer informatie</small> </legend>
 
@@ -20,9 +21,9 @@
 
       <!-- Message body -->
       <div class="form-group">
-        <label class="col-md-3 control-label" for="message">Uw bericht</label>
+        <label class="col-md-3 control-label" for="textmessage">Uw bericht</label>
         <div class="col-md-9">
-          <textarea class="form-control" id="message" name="message" placeholder="Hier uw bericht!" rows="5" style="resize:vertical;"></textarea>
+          <textarea class="form-control" id="textmessage" name="textmessage" placeholder="Hier uw bericht!" rows="5" style="resize:vertical;"></textarea>
         </div>
       </div>
 

@@ -41,19 +41,17 @@ class PagesController extends Controller
     $this->validate($request, [
          'name' => 'required',
          'email' => 'required|email',
-         'telephone' => 'required',
          'textmessage' => 'min:10']);
 
      $data = array(
          'email' => $request->email,
          'name' => $request->name,
-         'telephone' => $request->telephone,
          'textmessage' => $request->textmessage
          );
 
      Mail::send('emails.contact', $data, function($message) use ($data){
          $message->from($data['email']);
-         $message->to('merphoweb@gmail.com');
+         $message->to('minejarno@gmail.com');
          $message->subject($data['name']);
      });
 

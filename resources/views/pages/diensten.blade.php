@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master', ['dienst_class' => 'active', 'home_class' => ' ', 'project_class' => ' ', 'contact_class' => ' '])
 
 @section('style')
   <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/diensten.css') }}" />

@@ -155,6 +155,25 @@ footer {
 
 }
 
+@media (min-height: 600px){
+  .footer-img{
+    width: 4%!important;
+    margin-left: 14%!important;
+    padding-top: 0!important;
+  }
+
+  footer {
+    background-color: #e5e5e5;
+    color: black;
+    padding: 0px;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    font-size: 14px;
+  }
+
+}
+
 @media (min-width: 1024px) and (min-height: 768px){
   html{
     height: 100vh;

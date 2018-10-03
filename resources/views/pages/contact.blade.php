@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master', ['dienst_class' => ' ', 'home_class' => ' ', 'project_class' => ' ', 'contact_class' => 'active'])
 
 @section('style')
   <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/contact.css') }}" />
@@ -16,7 +16,7 @@
 
     </div>
     <div class="col-sm-5 hidden-xs hidden-sm" style="padding: 3%; padding-top: 1%; padding-bottom: 0.5%; left: 12%; top: 30%; height:33%; width:30%; position:absolute;">
-      <img src="/storage/{{$contact->image}}" alt="bachmann montage bus" style="height: 100%; width:100%;">
+      <img src="/storage/{{$contact->image}}" alt="bachmann montage bus" style="height: 100%; width:100%; object-fit:cover;">
 
     </div>
     <div class="col-sm-1">

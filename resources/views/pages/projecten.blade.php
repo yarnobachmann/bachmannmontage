@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master', ['dienst_class' => ' ', 'home_class' => ' ', 'project_class' => 'active', 'contact_class' => ' '])
 
 @section('style')
   <link rel="stylesheet" href="/plugins/slick/slick.css">

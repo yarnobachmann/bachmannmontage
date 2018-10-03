@@ -15,6 +15,8 @@ Route::get('/', 'Frontend\PagesController@home');
 
 Route::get('/contact', 'Frontend\PagesController@contact');
 
+Route::post('/contact', 'Frontend\PagesController@getcontact');
+
 Route::get('/diensten', 'Frontend\PagesController@diensten');
 
 Route::get('/projecten', 'Frontend\PagesController@projecten');

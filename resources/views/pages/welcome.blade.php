@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master', ['dienst_class' => ' ', 'home_class' => 'active', 'project_class' => ' ', 'contact_class' => ' '])
 
 @section('style')
   <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/home.css') }}" />
@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <div class="col-sm-12 text-left" style="background:blue; width:100vw; height: 70vh;">
+    <div class="col-sm-12 text-left" style="background-image: url('/img/placeholder/auto.jpg'); background-position: right 40%; background-size: cover; width:100vw; height: 70vh;">
 
     </div>
     <div class="col-sm-1 sidenav">
@@ -37,6 +37,6 @@
       </div>
     </div>
 
-  
+
 
 @endsection
